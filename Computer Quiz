@@ -1,0 +1,122 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNhFlavnp8W38vcA03WUvmd",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/lanzashlee/MINE/blob/main/Computer%20Quiz\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "Lo3mOzMq2xEf"
+      },
+      "outputs": [],
+      "source": [
+        "print(\"Welcome to our Game\")\n",
+        "\n",
+        "playing = input(\"Do u wanna play? \")\n",
+        "\n",
+        "if playing.islower() != \"yes\":\n",
+        "  quit()\n",
+        "\n",
+        "print(\"Okay,Let's Play (:\")\n",
+        "score = 0\n",
+        "\n",
+        "answer = input(\"What does CPU stand for? \")\n",
+        "if answer == \"central processing unit\":\n",
+        "   print(\"Correct\")\n",
+        "   score += 1 \n",
+        "else:\n",
+        "   print(\"Wrong\")\n",
+        "\n",
+        "answer = input(\"Scientific Name of Computer? \")\n",
+        "if answer == \"silico sapiens\":\n",
+        "   print(\"Correct\")\n",
+        "   score += 1 \n",
+        "else:\n",
+        "   print(\"Wrong\")\n",
+        "\n",
+        "answer = input(\"Scientific Name of Computer? \")\n",
+        "if answer == \"silico sapiens\":\n",
+        "   print(\"Correct\")\n",
+        "   score += 1 \n",
+        "else:\n",
+        "   print(\"Wrong\")\n",
+        "\n",
+        "answer = input(\"What is correcting errors in a program called? \")\n",
+        "if answer == \"debugging\":\n",
+        "   print(\"Correct\")\n",
+        "   score += 1 \n",
+        "else:\n",
+        "   print(\"Wrong\")\n",
+        "\n",
+        "answer = input(\"Whats does RAM stand for? \")\n",
+        "if answer == \"random access memory\":\n",
+        "   print(\"Correct\")\n",
+        "   score += 1 \n",
+        "else:\n",
+        "   print(\"Wrong\")\n",
+        "\n",
+        "answer = input(\"What type of virus uses computer hosts to reproduce itself? \")\n",
+        "if answer == \"worm\":\n",
+        "   print(\"Correct\")\n",
+        "   score += 1 \n",
+        "else:\n",
+        "   print(\"Wrong\")\n",
+        "\n",
+        "answer = input(\" \")\n",
+        "if answer == \"\":\n",
+        "   print(\"Correct\")\n",
+        "   score += 1 \n",
+        "else:\n",
+        "   print(\"Wrong\")\n",
+        "\n",
+        "answer = input(\" \")\n",
+        "if answer == \"\":\n",
+        "   print(\"Correct\")\n",
+        "   score += 1 \n",
+        "else:\n",
+        "   print(\"Wrong\")\n",
+        "\n",
+        "answer = input(\" \")\n",
+        "if answer == \"\":\n",
+        "   print(\"Correct\")\n",
+        "   score += 1 \n",
+        "else:\n",
+        "   print(\"Wrong\")\n",
+        "\n",
+        "answer = input(\"\")\n",
+        "if answer == \"\":\n",
+        "   print(\"Correct\")\n",
+        "   score += 1 \n",
+        "else:\n",
+        "   print(\"Wrong\")\n",
+        "\n",
+        "   print(\"Your Score is: \" + str(score))\n",
+        "   \n"
+      ]
+    }
+  ]
+}
